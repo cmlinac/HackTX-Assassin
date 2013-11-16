@@ -1,7 +1,7 @@
 HackTX-Assassin
 ===============
 
-Assassin game for iOS, developed at HackTX
+Assassin game for iOS, developed at HackTX.
 
 We are using Bluetooth to obtain accurate location values to make sure you are in range of your target.
 
@@ -16,3 +16,9 @@ Poison- you must be close to your target to poison them. The poison takes roughl
 Players create and join the game using a game name and password, then all agree to start. The game manages your target for you.
 
 The biggest advantage of this is there is no manager required. Now you can play with all of your friends without one of them sitting on the sideline managing the game!
+
+Team members:
+Chris Mlinac
+Alan Bouzek
+Nathan Chapman
+Nari Voyles
