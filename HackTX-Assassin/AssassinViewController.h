@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Parse/Parse.h>
+#import "LobbyViewController.h"
+#import "GameStatusViewController.h"
 
-@interface AssassinViewController : UIViewController
+@interface AssassinViewController : UIViewController <PFLogInViewControllerDelegate, PFSignUpViewControllerDelegate, UIAlertViewDelegate>
+- (IBAction)createGamePressed:(id)sender;
+- (IBAction)joinGamePressed:(id)sender;
 
 @end

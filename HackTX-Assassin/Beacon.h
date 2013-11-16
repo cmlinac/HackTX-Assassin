@@ -7,7 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreBluetooth/CoreBluetooth.h>
 
-@interface Beacon : NSObject
+@interface Beacon : NSObject <CBCentralManagerDelegate, CBPeripheralManagerDelegate>
+
+@property (nonatomic, strong) CBPeripheralManager *peripheralManager;
+@property (nonatomic, strong) CBCentralManager *centralManager;
+
+- (void)setup;
+- (void)startTrackingForIdentifier:(NSString*)identifier;
+- (void)stopTracking;
+- (void)startAdvertisingWithIdentifier:(NSString*)identifier;
+- (void)stopAdvertising;
+- (int)distanceToTarget;
 
 @end
