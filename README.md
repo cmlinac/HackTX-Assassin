@@ -24,3 +24,5 @@ Nathan Chapman
 Nari Voyles
 
 Check out our proof of concept, test_beacon: https://github.com/abouzek/test_beacon
+
+Progress: Unfortunately, we ran into some problems sending notifications between devices via Bluetooth. There was very little documentation for how to do this, and we felt the next best implementation involving push notifications was too inefficient to implement, so we decided to leave Assassin unfinished until Apple releases more information about the new Bluetooth features in iOS7.
