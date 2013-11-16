@@ -15,7 +15,7 @@ Poison- you must be close to your target to poison them. The poison takes roughl
 
 Players create and join the game using a game name and password, then all agree to start. The game manages your target for you.
 
-The biggest advantage of this is there is no manager required. Now you can play with all of your friends without one of them sitting on the sideline managing the game!
+The biggest advantage of this is that there is no human manager required. Now you can play with all of your friends without one of them sitting on the sideline managing the game!
 
 Team members:
 Chris Mlinac
