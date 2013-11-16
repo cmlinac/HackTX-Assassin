@@ -3,7 +3,7 @@ HackTX-Assassin
 
 Assassin game for iOS, developed at HackTX.
 
-We are using low-power Bluetooth to obtain accurate location values to make sure you are in range of your target.
+We are using low-energy Bluetooth to obtain accurate location values to make sure you are in range of your target.
 
 Unlike traditional Assassin, we are able to offer several weapon options with different ranges and probabilities of hitting your target.
 
@@ -22,3 +22,5 @@ Chris Mlinac
 Alan Bouzek
 Nathan Chapman
 Nari Voyles
+
+Check out our proof of concept, test_beacon: https://github.com/abouzek/test_beacon
